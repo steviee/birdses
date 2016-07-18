@@ -16,9 +16,9 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency "rails", "~> 3.2.11"
-  s.add_dependency "gollum", "~> 2.4.11"
-  s.add_dependency "gollum_editor", "~> 0.4"
+  s.add_dependency "rails", '4.2.6'
+  s.add_dependency "gollum"
+  s.add_dependency "gollum_editor"
 
   s.add_development_dependency 'rspec-rails'
 end
